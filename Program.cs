@@ -14,6 +14,11 @@ class Program
 
         Console.WriteLine(lastname);
 
+        Console.Write("Enter your middle name: ");
+        string middlename = Console.ReadLine();
+
+        Console.WriteLine(middlename);
+
         Console.Write("Enter your age: ");
         int age;
         while (!int.TryParse(Console.ReadLine(), out age) || age < 0)
