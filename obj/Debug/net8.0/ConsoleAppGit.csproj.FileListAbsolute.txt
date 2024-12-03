@@ -1,0 +1,14 @@
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\bin\Debug\net8.0\ConsoleAppGit.exe
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\bin\Debug\net8.0\ConsoleAppGit.deps.json
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\bin\Debug\net8.0\ConsoleAppGit.runtimeconfig.json
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\bin\Debug\net8.0\ConsoleAppGit.dll
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\bin\Debug\net8.0\ConsoleAppGit.pdb
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ConsoleAppGit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ConsoleAppGit.AssemblyInfoInputs.cache
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ConsoleAppGit.AssemblyInfo.cs
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ConsoleAppGit.csproj.CoreCompileInputs.cache
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ConsoleAppGit.dll
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\refint\ConsoleAppGit.dll
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ConsoleAppGit.pdb
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ConsoleAppGit.genruntimeconfig.cache
+C:\Users\Melos\source\repos\ConsoleAppGit\ConsoleAppGit\obj\Debug\net8.0\ref\ConsoleAppGit.dll
