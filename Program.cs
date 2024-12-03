@@ -1,41 +1,69 @@
 ﻿using System;
 
-class Program
+class Calculator
 {
     static void Main()
     {
-        Console.Write("Enter your name: ");
-        string name = Console.ReadLine();
+        double num1, num2, result;
+        string operation;
 
-        Console.WriteLine(name);
+        // Display the welcome message
+        Console.WriteLine("Simple Calculator");
+        Console.WriteLine("-------------------");
 
-        Console.Write("Enter your last name: ");
-        string lastname = Console.ReadLine();
-
-        Console.WriteLine(lastname);
-
-        Console.Write("Enter your middle name: ");
-        string middlename = Console.ReadLine();
-
-        Console.WriteLine(middlename);
-
-        Console.Write("Enter your age: ");
-        int age;
-        while (!int.TryParse(Console.ReadLine(), out age) || age < 0)
+        // Input: First number
+        Console.Write("Enter the first number: ");
+        while (!double.TryParse(Console.ReadLine(), out num1))
         {
-            Console.WriteLine("Please enter a valid positive number for your age.");
-            Console.Write("Enter your age: ");
+            Console.WriteLine("Invalid input. Please enter a valid number.");
+            Console.Write("Enter the first number: ");
         }
 
-        int currentYear = DateTime.Now.Year;
-        int birthYear = currentYear - age;
+        // Input: Operation
+        Console.Write("Enter an operation (+, -, *, /): ");
+        operation = Console.ReadLine();
 
-        // Display the result
-        Console.WriteLine($"\nHello, {name} {lastname}! Based on your age, you were likely born in {birthYear}.");
+        // Input: Second number
+        Console.Write("Enter the second number: ");
+        while (!double.TryParse(Console.ReadLine(), out num2))
+        {
+            Console.WriteLine("Invalid input. Please enter a valid number.");
+            Console.Write("Enter the second number: ");
+        }
 
+        // Perform the calculation based on the operation
+        switch (operation)
+        {
+            case "+":
+                result = num1 + num2;
+                Console.WriteLine($"Result: {num1} + {num2} = {result}");
+                break;
+            case "-":
+                result = num1 - num2;
+                Console.WriteLine($"Result: {num1} - {num2} = {result}");
+                break;
+            case "*":
+                result = num1 * num2;
+                Console.WriteLine($"Result: {num1} * {num2} = {result}");
+                break;
+            case "/":
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                    Console.WriteLine($"Result: {num1} / {num2} = {result}");
+                }
+                else
+                {
+                    Console.WriteLine("Error: Cannot divide by zero.");
+                }
+                break;
+            default:
+                Console.WriteLine("Invalid operation. Please enter one of (+, -, *, /).");
+                break;
+        }
+
+        // Wait for the user to close the program
         Console.WriteLine("\nPress any key to exit...");
         Console.ReadKey();
-         
-
     }
 }
