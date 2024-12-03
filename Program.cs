@@ -9,6 +9,11 @@ class Program
 
         Console.WriteLine(name);
 
+        Console.Write("Enter your last name: ");
+        string lastname = Console.ReadLine();
+
+        Console.WriteLine(lastname);
+
         Console.Write("Enter your age: ");
         int age;
         while (!int.TryParse(Console.ReadLine(), out age) || age < 0)
@@ -21,7 +26,7 @@ class Program
         int birthYear = currentYear - age;
 
         // Display the result
-        Console.WriteLine($"\nHello, {name}! Based on your age, you were likely born in {birthYear}.");
+        Console.WriteLine($"\nHello, {name} {lastname}! Based on your age, you were likely born in {birthYear}.");
 
         Console.WriteLine("\nPress any key to exit...");
         Console.ReadKey();
